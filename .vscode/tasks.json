@@ -1,0 +1,48 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Scala scripts",
+            "type": "shell",
+            "command": "scala",
+            "args": [
+                "oop.scala"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+
+        {
+            "label": "Scala compilation",
+            "type": "shell",
+            "command": "scalac",
+            "args": [
+                "Summer.scala",
+                "oop.scala"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+
+        {
+            "label": "Scala fsc",
+            "type": "shell",
+            "command": "fsc",
+            "args": [
+                "Summer.scala",
+                "oop.scala"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+    
+}
