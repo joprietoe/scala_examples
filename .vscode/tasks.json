@@ -35,8 +35,7 @@
             "type": "shell",
             "command": "fsc",
             "args": [
-                "Summer.scala",
-                "oop.scala"
+                "Rational.scala"
             ],
             "group": {
                 "kind": "build",
