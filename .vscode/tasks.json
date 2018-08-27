@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "scala",
             "args": [
-                "oop.scala"
+                "files.scala"
             ],
             "group": {
                 "kind": "build",
@@ -35,7 +35,8 @@
             "type": "shell",
             "command": "fsc",
             "args": [
-                "Rational.scala"
+                "files.scala",
+                "LongLines.scala"
             ],
             "group": {
                 "kind": "build",
